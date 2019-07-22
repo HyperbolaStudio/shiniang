@@ -5,13 +5,13 @@
         flex-direction: row-reverse;
         margin:12px 48px;
     }
+    body>h1{
+        margin:0 48px;
+    }
 }
 aside img{
     max-width:200px !important;
 }
 #main{
     margin:12px unset;
-}
-body>h1{
-    margin:0 48px;
 }
