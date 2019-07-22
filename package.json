@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/HyperbolaStudio/shiniang/issues"
   },
-  "homepage": "https://github.com/HyperbolaStudio/shiniang#readme"
+  "homepage": "https://github.com/HyperbolaStudio/shiniang#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "commander": "^2.20.0",
+    "marked": "^0.7.0"
+  }
 }
