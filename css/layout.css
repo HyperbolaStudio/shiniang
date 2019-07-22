@@ -1,0 +1,10 @@
+article{
+    float: left;
+}
+aside{
+    float:right;
+}
+#main{
+    margin:0 auto;
+    max-width:800px;
+}
