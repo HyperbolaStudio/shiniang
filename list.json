@@ -1,8 +1,1 @@
-{
-    "items":{
-        "-1娘":"-1niang"
-    },
-    "redirect":{
-        "-1娘":["zz娘","负一娘","双曲线娘","负1娘"]
-    }
-}
+{"items":{"-1娘":"-1niang","李星烨":"crs"},"redirect":{"-1娘":["zz娘","负一娘","双曲线娘","负1娘"],"李星烨":["CRS","Crindzebra","Crindzebra Sjimo","CrSjimo","冰豆逗","Icebean"]}}
