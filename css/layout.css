@@ -1,10 +1,13 @@
-article{
-    float: left;
+@media(min-width:1024px){
+    #main{
+        display:flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
 }
-aside{
-    float:right;
+aside img{
+    max-width:200px !important;
 }
 #main{
-    margin:0 auto;
-    max-width:800px;
+    margin:0 48px;
 }
