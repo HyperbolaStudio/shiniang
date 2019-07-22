@@ -1,4 +1,4 @@
-|室娘人设图|![](./assets/renshe.jpg)|
+|室娘人设图|[![](./assets/renshe.jpg)](./assets/renshe.jpg)|
 |-|-|
 |姓名|-1娘|
 |别号|ZZ娘，双曲线娘|
