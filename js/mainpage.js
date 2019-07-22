@@ -9,4 +9,5 @@ axios.get('/list.json').then(res => {
         li.appendChild(a);
         ul.appendChild(li);
     }
+    document.querySelector('#loading').remove();
 });

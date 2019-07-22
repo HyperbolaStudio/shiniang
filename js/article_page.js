@@ -5,6 +5,7 @@ function getPage(title,elemArticle,elemAside){
     });
     article.asyncGetMd(title,'aside').then(res => {
         article.insertMd(res.data,elemAside);
+        document.querySelector('#loading').remove();
     });
 }
 

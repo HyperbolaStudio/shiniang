@@ -34,7 +34,7 @@ fs.mkdir(srcName,(err) => {
             <h1><a href="/">-1娘的破站</a></h1>
         </header>
         <h1>${frdName}</h1>
-        <div id='main'>
+        <div id='loading'>加载中</div><div id='main'>
             <aside class='markdown-body'>
 
             </aside>
