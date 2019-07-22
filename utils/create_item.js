@@ -31,7 +31,7 @@ fs.mkdir(srcName,(err) => {
     </head>
     <body>
         <header>
-            <h1>-1娘的破站</h1>
+            <h1><a href="/">-1娘的破站</a></h1>
         </header>
         <h1>${frdName}</h1>
         <div id='main'>

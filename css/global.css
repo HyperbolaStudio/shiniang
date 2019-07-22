@@ -6,3 +6,7 @@ footer{
     border-top:solid 1px #000;
     margin-top:24px;
 }
+h1>a{
+    text-decoration: none;
+    color: #000;
+}
