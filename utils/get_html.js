@@ -1,0 +1,33 @@
+module.exports = function getHtml(srcName,frdName){
+    return `<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>${frdName}</title>
+        <meta name='-1:article-src' content="${srcName}">
+        <link rel="stylesheet" href="/css/layout.css">
+        <link rel="stylesheet" href="/css/article.css">
+        <link rel="stylesheet" href="/css/global.css">
+        <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1,user-scalable=no">
+    </head>
+    <body>
+        <header>
+            <h1><a href="/">-1娘的破站</a></h1>
+        </header>
+        <h1>${frdName}</h1>
+        <div id='loading'>加载中</div><div id='main'>
+            <aside class='markdown-body'>
+
+            </aside>
+            <article class='markdown-body'>
+
+            </article>  
+        </div>
+        <footer>
+            <div>除非另有说明，否则本站内容使用<a href="https://github.com/HyperbolaStudio/shiniang/blob/master/LICENSE">CC BY-SA 4.0协议</a>共享</div>
+            <div>(c)Hyperbola Studio</div>
+            <div><a href='/opensource.txt'>开源协议</a></div>
+        </footer>
+        <script src='/dist/bundle.js'></script>
+    </body>
+</html>`;
+}
